@@ -1,0 +1,39 @@
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: nam.mayert
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: ivr1ci32as
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: pricilla.buckridge@yahoo.com
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Madlyn
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Dare
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 8020746252
+
+22:29:41 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithValidData
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: User registered successfully!
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithValidData
+
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYW0ubWF5ZXJ0IiwiaWF0IjoxNzM0OTczMTg1LCJleHAiOjE3MzQ5NzY3ODV9.NI_-9IldeXpy5yXdeD3z1ipAidjJArgxnOJR8OJk1iQ",
+    "type": "Bearer",
+    "id": 424,
+    "username": "nam.mayert",
+    "email": "pricilla.buckridge@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+

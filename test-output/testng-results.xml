@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T22:29:41 IST" name="Suite" finished-at="2024-12-23T22:29:44 IST" duration-ms="3314">
+    <groups>
+    </groups>
+    <test started-at="2024-12-23T22:29:41 IST" name="Test" finished-at="2024-12-23T22:29:44 IST" duration-ms="3314">
+      <class name="com.bank.api.tests.AuthenticationTests">
+        <test-method is-config="true" signature="extentReportSetup()[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:40 IST" name="extentReportSetup" finished-at="2024-12-23T22:29:41 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportSetup -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:41 IST" name="setData" finished-at="2024-12-23T22:29:41 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:41 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-23T22:29:41 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifySignUpWithValidData()[pri:1, instance:com.bank.api.tests.AuthenticationTests@4802796d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReportForEachTestMethod -->
+        <test-method signature="verifySignUpWithValidData()[pri:1, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:41 IST" name="verifySignUpWithValidData" finished-at="2024-12-23T22:29:44 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpWithValidData -->
+        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:44 IST" name="testMethodExecutionResult" finished-at="2024-12-23T22:29:44 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignUpWithValidData status=SUCCESS method=AuthenticationTests.verifySignUpWithValidData()[pri:1, instance:com.bank.api.tests.AuthenticationTests@4802796d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodExecutionResult -->
+        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:44 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-23T22:29:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifyLoginWithValidCredentials()[pri:2, instance:com.bank.api.tests.AuthenticationTests@4802796d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReportForEachTestMethod -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:2, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:44 IST" name="verifyLoginWithValidCredentials" finished-at="2024-12-23T22:29:44 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:44 IST" name="testMethodExecutionResult" finished-at="2024-12-23T22:29:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=AuthenticationTests.verifyLoginWithValidCredentials()[pri:2, instance:com.bank.api.tests.AuthenticationTests@4802796d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodExecutionResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.api.tests.AuthenticationTests@4802796d]" started-at="2024-12-23T22:29:44 IST" name="tearDown" finished-at="2024-12-23T22:29:44 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.api.tests.AuthenticationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
