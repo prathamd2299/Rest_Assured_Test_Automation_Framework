@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.UserProfileManagementTests" class="method navigator-link" hash-for-method="verifyDeleteUserProfile">verifyDeleteUserProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,57 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.UserProfileManagementTests" class="method navigator-link" hash-for-method="verifyChangePassword">verifyChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AccountTests" class="method navigator-link" hash-for-method="verifyCreateUserAccount">verifyCreateUserAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyForgotPasswordWithValidEmail">verifyForgotPasswordWithValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AccountTests" class="method navigator-link" hash-for-method="verifyGetUserAccountByAccountNumber">verifyGetUserAccountByAccountNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AccountTests" class="method navigator-link" hash-for-method="verifyGetUserAccounts">verifyGetUserAccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.UserProfileManagementTests" class="method navigator-link" hash-for-method="verifyGetUserProfile">verifyGetUserProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyLoginWithInvalidCredentials">verifyLoginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifySignUpWithValidData">verifySignUpWithValidData</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.AuthenticationTests" class="method navigator-link" hash-for-method="verifySignUpWithAlreadyExistUser">verifySignUpWithAlreadyExistUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.UserProfileManagementTests" class="method navigator-link" hash-for-method="verifyUpdateUserProfileWithPatchRequest">verifyUpdateUserProfileWithPatchRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bank.api.tests.UserProfileManagementTests" class="method navigator-link" hash-for-method="verifyUpdateUserProfileWithPutRequest">verifyUpdateUserProfileWithPutRequest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -123,12 +182,81 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bank.api.tests.UserProfileManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDeleteUserProfile">
+                  </a> <!-- verifyDeleteUserProfile -->
+                  <span class="method-name">verifyDeleteUserProfile</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [User profile deleted successfully] but found [{
+    &quot;timestamp&quot;: &quot;Sun Dec 29 10:18:30 UTC 2024&quot;,
+    &quot;status&quot;: 401,
+    &quot;error&quot;: &quot;Unauthorized&quot;,
+    &quot;message&quot;: &quot;Full authentication is required to access this resource&quot;,
+    &quot;path&quot;: &quot;/error&quot;
+}]
+	at com.bank.api.tests.UserProfileManagementTests.verifyDeleteUserProfile(UserProfileManagementTests.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bank.api.tests.AccountTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateUserAccount">
+                  </a> <!-- verifyCreateUserAccount -->
+                  <span class="method-name">verifyCreateUserAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetUserAccountByAccountNumber">
+                  </a> <!-- verifyGetUserAccountByAccountNumber -->
+                  <span class="method-name">verifyGetUserAccountByAccountNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetUserAccounts">
+                  </a> <!-- verifyGetUserAccounts -->
+                  <span class="method-name">verifyGetUserAccounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.bank.api.tests.AuthenticationTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyForgotPasswordWithValidEmail">
+                  </a> <!-- verifyForgotPasswordWithValidEmail -->
+                  <span class="method-name">verifyForgotPasswordWithValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidCredentials">
+                  </a> <!-- verifyLoginWithInvalidCredentials -->
+                  <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyLoginWithValidCredentials">
@@ -138,9 +266,45 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpWithValidData">
-                  </a> <!-- verifySignUpWithValidData -->
-                  <span class="method-name">verifySignUpWithValidData</span>
+                  <a name="verifySignUpWithAlreadyExistUser">
+                  </a> <!-- verifySignUpWithAlreadyExistUser -->
+                  <span class="method-name">verifySignUpWithAlreadyExistUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bank.api.tests.UserProfileManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChangePassword">
+                  </a> <!-- verifyChangePassword -->
+                  <span class="method-name">verifyChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetUserProfile">
+                  </a> <!-- verifyGetUserProfile -->
+                  <span class="method-name">verifyGetUserProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateUserProfileWithPatchRequest">
+                  </a> <!-- verifyUpdateUserProfileWithPatchRequest -->
+                  <span class="method-name">verifyUpdateUserProfileWithPatchRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUpdateUserProfileWithPutRequest">
+                  </a> <!-- verifyUpdateUserProfileWithPutRequest -->
+                  <span class="method-name">verifyUpdateUserProfileWithPutRequest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,6 +325,8 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bank.api.tests.AuthenticationTests&quot;/&gt;
+      &lt;class name=&quot;com.bank.api.tests.UserProfileManagementTests&quot;/&gt;
+      &lt;class name=&quot;com.bank.api.tests.AccountTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -174,7 +340,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,20 +366,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySignUpWithValidData')
-data.setCell(0, 2, 'com.bank.api.tests.AuthenticationTests')
-data.setCell(0, 3, 2098);
+data.setCell(0, 1, 'verifyDeleteUserProfile')
+data.setCell(0, 2, 'com.bank.api.tests.UserProfileManagementTests')
+data.setCell(0, 3, 2179);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLoginWithValidCredentials')
+data.setCell(1, 1, 'verifySignUpWithAlreadyExistUser')
 data.setCell(1, 2, 'com.bank.api.tests.AuthenticationTests')
-data.setCell(1, 3, 381);
+data.setCell(1, 3, 1879);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginWithInvalidCredentials')
+data.setCell(2, 2, 'com.bank.api.tests.AuthenticationTests')
+data.setCell(2, 3, 885);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCreateUserAccount')
+data.setCell(3, 2, 'com.bank.api.tests.AccountTests')
+data.setCell(3, 3, 535);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyGetUserProfile')
+data.setCell(4, 2, 'com.bank.api.tests.UserProfileManagementTests')
+data.setCell(4, 3, 427);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLoginWithValidCredentials')
+data.setCell(5, 2, 'com.bank.api.tests.AuthenticationTests')
+data.setCell(5, 3, 410);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyChangePassword')
+data.setCell(6, 2, 'com.bank.api.tests.UserProfileManagementTests')
+data.setCell(6, 3, 351);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyForgotPasswordWithValidEmail')
+data.setCell(7, 2, 'com.bank.api.tests.AuthenticationTests')
+data.setCell(7, 3, 227);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyGetUserAccounts')
+data.setCell(8, 2, 'com.bank.api.tests.AccountTests')
+data.setCell(8, 3, 204);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUpdateUserProfileWithPutRequest')
+data.setCell(9, 2, 'com.bank.api.tests.UserProfileManagementTests')
+data.setCell(9, 3, 202);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyUpdateUserProfileWithPatchRequest')
+data.setCell(10, 2, 'com.bank.api.tests.UserProfileManagementTests')
+data.setCell(10, 3, 154);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyGetUserAccountByAccountNumber')
+data.setCell(11, 2, 'com.bank.api.tests.AccountTests')
+data.setCell(11, 3, 150);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -228,9 +434,34 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bank.api.tests.AuthenticationTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifySignUpWithValidData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bank.api.tests.AccountTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">extentReportSetup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bank.api.tests.UserProfileManagementTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">extentReportSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -246,35 +477,174 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setData</span>
-                <span class="method-start">809 ms</span>
+                <span class="method-start">802 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AuthenticationTests.verifySignUpWithValidData()[pri:1,...)</span>
-                <span class="method-start">1076 ms</span>
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AuthenticationTests.verifySignUpWithAlreadyExistUser()...)</span>
+                <span class="method-start">1008 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpWithValidData</span>
-                <span class="method-start">1092 ms</span>
+                <span class="method-name">verifySignUpWithAlreadyExistUser</span>
+                <span class="method-start">1022 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">testMethodExecutionResult([TestResult name=verifySignUpWithValidData status=SUCCESS method=AuthenticationTests.verifySignUpWit...)</span>
-                <span class="method-start">3194 ms</span>
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifySignUpWithAlreadyExistUser status=SUCCESS method=AuthenticationTests.verifySi...)</span>
+                <span class="method-start">2904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AuthenticationTests.verifyLoginWithInvalidCredentials(...)</span>
+                <span class="method-start">2926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                <span class="method-start">2928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=AuthenticationTests.verifyL...)</span>
+                <span class="method-start">3815 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AuthenticationTests.verifyLoginWithValidCredentials()[...)</span>
-                <span class="method-start">3207 ms</span>
+                <span class="method-start">3816 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginWithValidCredentials</span>
-                <span class="method-start">3208 ms</span>
+                <span class="method-start">3817 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testMethodExecutionResult([TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=AuthenticationTests.verifyLog...)</span>
-                <span class="method-start">3592 ms</span>
+                <span class="method-start">4231 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AuthenticationTests.verifyForgotPasswordWithValidEmail...)</span>
+                <span class="method-start">4234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyForgotPasswordWithValidEmail</span>
+                <span class="method-start">4235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyForgotPasswordWithValidEmail status=SUCCESS method=AuthenticationTests.verify...)</span>
+                <span class="method-start">4466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bank.api.tests.UserProfileManagementTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setData</span>
+                <span class="method-start">4469 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyGetUserProfile()[pri:...)</span>
+                <span class="method-start">4476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetUserProfile</span>
+                <span class="method-start">4481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyGetUserProfile status=SUCCESS method=UserProfileManagementTests.verifyGetUser...)</span>
+                <span class="method-start">4910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyUpdateUserProfileWith...)</span>
+                <span class="method-start">4913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateUserProfileWithPutRequest</span>
+                <span class="method-start">4914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyUpdateUserProfileWithPutRequest status=SUCCESS method=UserProfileManagementTe...)</span>
+                <span class="method-start">5118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyUpdateUserProfileWith...)</span>
+                <span class="method-start">5120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUpdateUserProfileWithPatchRequest</span>
+                <span class="method-start">5120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyUpdateUserProfileWithPatchRequest status=SUCCESS method=UserProfileManagement...)</span>
+                <span class="method-start">5276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyChangePassword()[pri:...)</span>
+                <span class="method-start">5279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyChangePassword</span>
+                <span class="method-start">5281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyChangePassword status=SUCCESS method=UserProfileManagementTests.verifyChangeP...)</span>
+                <span class="method-start">5636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyDeleteUserProfile()[p...)</span>
+                <span class="method-start">5638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDeleteUserProfile</span>
+                <span class="method-start">5638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyDeleteUserProfile status=FAILURE method=UserProfileManagementTests.verifyDele...)</span>
+                <span class="method-start">7825 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bank.api.tests.AccountTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setData</span>
+                <span class="method-start">7826 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateUserAccount</span>
+                <span class="method-start">7832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AccountTests.verifyCreateUserAccount()[pri:1, instance...)</span>
+                <span class="method-start">7832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyCreateUserAccount status=SUCCESS method=AccountTests.verifyCreateUserAccount(...)</span>
+                <span class="method-start">8368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AccountTests.verifyGetUserAccountByAccountNumber()[pri...)</span>
+                <span class="method-start">8369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetUserAccountByAccountNumber</span>
+                <span class="method-start">8370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyGetUserAccountByAccountNumber status=SUCCESS method=AccountTests.verifyGetUse...)</span>
+                <span class="method-start">8522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">createExtentReportForEachTestMethod([TestResult name={null} status=CREATED method=AccountTests.verifyGetUserAccounts()[pri:3, instance:c...)</span>
+                <span class="method-start">8524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetUserAccounts</span>
+                <span class="method-start">8525 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testMethodExecutionResult([TestResult name=verifyGetUserAccounts status=SUCCESS method=AccountTests.verifyGetUserAccounts()[pr...)</span>
+                <span class="method-start">8731 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bank.api.tests.AuthenticationTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3645 ms</span>
+                <span class="method-start">8782 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

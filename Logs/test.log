@@ -37,3 +37,2698 @@
 
 22:29:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
 
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: apryl.wuckert
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: ew5wnac842u
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: lilla.emard@gmail.com
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Georgina
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Ward
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 2593766117
+
+11:09:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+11:09:29 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+11:09:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+11:09:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+11:09:30 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 05:39:34 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+11:09:30 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+11:09:30 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+11:09:32 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcmF0aGFtIiwiaWF0IjoxNzM1NDUwNzc2LCJleHAiOjE3MzU0NTQzNzZ9.KbG_YHlztx4rSo5sIeSjON3UgvNyilpELCAeChqrf88",
+    "type": "Bearer",
+    "id": 376,
+    "username": "pratham",
+    "email": "pratham@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+11:09:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+11:09:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: sharri.damore
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: cs8o9cj0eiq
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: vivan.parker@hotmail.com
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Curtis
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Schowalter
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 9648958062
+
+11:22:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+11:22:19 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+11:22:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+11:22:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+11:22:20 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 05:52:25 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+11:22:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+11:22:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+11:22:21 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcmF0aGFtIiwiaWF0IjoxNzM1NDUxNTQ2LCJleHAiOjE3MzU0NTUxNDZ9.rLbNy0ih_1TCrlSRHwYcZGHJicPUjogP5_sZv2wZ4m8",
+    "type": "Bearer",
+    "id": 376,
+    "username": "pratham",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+11:22:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+11:22:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+11:54:57 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+11:54:57 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: grady.brakus
+
+11:54:57 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: 8rcuhrng0v
+
+11:54:58 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: kasey.ward@yahoo.com
+
+11:54:58 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Edwardo
+
+11:54:58 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Zboncak
+
+11:54:58 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 2456091127
+
+11:54:58 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+11:55:00 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+11:55:00 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+11:55:00 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+11:55:00 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 06:25:05 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+11:55:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+11:55:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+11:55:01 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcmF0aGFtIiwiaWF0IjoxNzM1NDUzNTA2LCJleHAiOjE3MzU0NTcxMDZ9.drwRhPrvtoC-OmRItaFKjXEbAR824swIKGAiZrKqpaY",
+    "type": "Bearer",
+    "id": 376,
+    "username": "pratham",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+11:55:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+11:55:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "timestamp": "Sun Dec 29 06:25:08 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyResetPassword
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Reset password response body: {
+    "message": "Invalid reset token"
+}
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyResetPassword
+
+
+11:55:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: stevie.pfannerstill
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: mxcf8znaxxolk0x
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: paul.berge@yahoo.com
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Joesph
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Deckow
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 1920415460
+
+11:58:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+11:58:26 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+11:58:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+11:58:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+11:58:27 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 06:28:32 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+11:58:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcmF0aGFtIiwiaWF0IjoxNzM1NDUzNzEzLCJleHAiOjE3MzU0NTczMTN9.UP0wHkbVag8dZbt6_-prz3eIP7DlnIjiRbbLbmVkGb4",
+    "type": "Bearer",
+    "id": 376,
+    "username": "pratham",
+    "email": "pratham@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyLoginWithValidCredentials
+
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyResetPassword
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Reset password response body: {
+    "message": "Invalid reset token"
+}
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyResetPassword
+
+
+11:58:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+11:59:38 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: val.hills
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: vad8c0bss78mug
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: kira.zboncak@gmail.com
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Bryon
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Gislason
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 3648912260
+
+11:59:39 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+11:59:41 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+11:59:41 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+11:59:42 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+11:59:42 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 06:29:47 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+11:59:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+11:59:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+11:59:43 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwcmF0aGFtIiwiaWF0IjoxNzM1NDUzNzg4LCJleHAiOjE3MzU0NTczODh9.xdpRrey_nsQw_N6bmFLsiTgZZh5VRCnDP5VLyQ2V3Ys",
+    "type": "Bearer",
+    "id": 376,
+    "username": "pratham",
+    "email": "pratham@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+11:59:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+11:59:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+11:59:45 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "timestamp": "Sun Dec 29 06:29:50 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+11:59:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyForgotPasswordWithValidEmail
+
+
+11:59:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyResetPassword
+
+11:59:46 [main] INFO  com.bank.api.utilities.LoggerUtility Reset password response body: {
+    "message": "Invalid reset token"
+}
+
+11:59:46 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyResetPassword
+
+
+11:59:46 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: tabitha.quigley
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: x0lfgogpf
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: margareta.heaney@gmail.com
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Derek
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Langworth
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 5045353750
+
+12:25:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+12:25:28 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+12:25:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+12:25:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+12:25:29 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 06:55:34 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+12:25:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+12:25:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+12:25:31 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NTUzMzYsImV4cCI6MTczNTQ1ODkzNn0.t5Br_bXwJKj4l7Q3ErTMGq4Y3tqyOgXrD68UEhTVbk8",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+12:25:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+12:25:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+12:25:34 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "timestamp": "Sun Dec 29 06:55:39 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+12:25:34 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyForgotPasswordWithValidEmail
+
+
+12:25:34 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: arlena.reinger
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: d7m2zpslv88os
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: filiberto.morissette@yahoo.com
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Lavern
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Senger
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 4369335787
+
+12:26:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+12:26:15 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+12:26:15 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+12:26:15 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+12:26:16 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 06:56:21 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NTUzODIsImV4cCI6MTczNTQ1ODk4Mn0.4wbVQmT9xINlgSgdEF7ob7tOD7akfZdvCKlM1NXWd18",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+12:26:17 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:28:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: keren.hirthe
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: wnnu9kasjqr5dv
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: mindy.raynor@gmail.com
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Vernia
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Block
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 8499680207
+
+14:28:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 08:58:04 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:28:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI2ODUsImV4cCI6MTczNTQ2NjI4NX0.59CXtWEzvovFDWmA5IeYaNuE4Fof2F7sWfkvb-K6LpU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI2ODUsImV4cCI6MTczNTQ2NjI4NX0.59CXtWEzvovFDWmA5IeYaNuE4Fof2F7sWfkvb-K6LpU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "timestamp": "Sun Dec 29 08:58:05 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI2ODUsImV4cCI6MTczNTQ2NjI4NX0.59CXtWEzvovFDWmA5IeYaNuE4Fof2F7sWfkvb-K6LpU"
+}
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserProfile
+
+
+14:28:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:28:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: carlton.wilderman
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: jq0uak3lki3pf2t
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: renata.bernier@gmail.com
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Drew
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Funk
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 3882030003
+
+14:29:33 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:29:35 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:29:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:29:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:29:35 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 08:59:35 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:29:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:29:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:29:36 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI3NzYsImV4cCI6MTczNTQ2NjM3Nn0.5j9lH6U_cBdhlPTCjI_BeSPzUVZGbAAnIv9xH61kbi0",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:29:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:29:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI3NzcsImV4cCI6MTczNTQ2NjM3N30.LStv5FS-cKq5_4iHPMoqsE6BMa83SPip5S3yZ9o3r7w",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI3NzcsImV4cCI6MTczNTQ2NjM3N30.LStv5FS-cKq5_4iHPMoqsE6BMa83SPip5S3yZ9o3r7w",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserProfile
+
+
+14:29:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:29:38 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: tamie.boehm
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: 40eeyio31dlar
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: armand.haag@yahoo.com
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Yelena
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Hilll
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 3333513876
+
+14:30:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:30:34 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:30:34 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:30:34 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:30:34 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 09:00:34 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4MzUsImV4cCI6MTczNTQ2NjQzNX0.dOst9E9g-bBh_DdSuRKH6Eu352chGGPWfoFfjlXFziU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:30:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:30:36 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4MzUsImV4cCI6MTczNTQ2NjQzNX0.dOst9E9g-bBh_DdSuRKH6Eu352chGGPWfoFfjlXFziU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:30:36 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4MzUsImV4cCI6MTczNTQ2NjQzNX0.dOst9E9g-bBh_DdSuRKH6Eu352chGGPWfoFfjlXFziU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:30:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserProfile
+
+
+14:30:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:30:37 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: raphael.rohan
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: cgtz1d9u1m5x7g2
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: tanesha.bailey@hotmail.com
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Sidney
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Hayes
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 7157095381
+
+14:31:08 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:31:10 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:31:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:31:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:31:10 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 09:01:10 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4NzEsImV4cCI6MTczNTQ2NjQ3MX0.etI0pQQf6FJsYYxNLl0emGXCsVawtcl7u3SaEQuuWeE",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:31:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4NzIsImV4cCI6MTczNTQ2NjQ3Mn0.DcpwuJYYfgihpuwVi5sfQHJFONsmfYTuN2mzDIdvEuE",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "timestamp": "Sun Dec 29 09:01:12 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI4NzIsImV4cCI6MTczNTQ2NjQ3Mn0.DcpwuJYYfgihpuwVi5sfQHJFONsmfYTuN2mzDIdvEuE"
+}
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserProfile
+
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:31:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:32:15 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: jayne.yundt
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: 2a9cb8o0prr
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: andrea.bednar@hotmail.com
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Dewayne
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Quigley
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 7949857888
+
+14:32:16 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:32:18 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:32:18 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:32:18 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:32:18 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 09:02:18 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI5MzksImV4cCI6MTczNTQ2NjUzOX0.VD3V0B-AP3bhiMnFHjUx-yl69yFhSaLp-NC6REWh9N4",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:32:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjI5NDAsImV4cCI6MTczNTQ2NjU0MH0.CBvt-x7oQzpQGFKgiTSmwO11MvZfmVUrE_s7kYyRjwY",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:32:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: tiara.blanda
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: e3vxeug5
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: ngoc.little@hotmail.com
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Jamee
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Bergnaum
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 8655359102
+
+14:48:18 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 09:18:21 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjM5MDIsImV4cCI6MTczNTQ2NzUwMn0.WLcBtmW5OtzcBs8bqBWHmYcRoHdiOVMWaz9OrbkTlq4",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:48:22 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjM5MDMsImV4cCI6MTczNTQ2NzUwM30.7jrwZVo88zklMPNLs3sZpL3o4F8EgfcmJJ2JOfPx41g",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 09:18:24 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+14:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+14:51:19 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: matthew.dach
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: f4ejkfgh7y
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: toshiko.schulist@hotmail.com
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Conrad
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Schmidt
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 8971736051
+
+14:51:20 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+14:51:22 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+14:51:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+14:51:22 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+14:51:22 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 09:21:22 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjQwODMsImV4cCI6MTczNTQ2NzY4M30.NFGTHYRifY5bnRJxx_N05v-p8zr90tXbl8GzT6NFrRc",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+14:51:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjQwODQsImV4cCI6MTczNTQ2NzY4NH0.IvGyCkfAbMJtSbC-xsfs-Nah1onIvMWsLc6QtQeuTHk",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+14:51:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: User profile deleted successfully
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyDeleteUserProfile
+
+
+14:51:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: esperanza.yost
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: qoj32g8f2iddp
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: cordell.waelchi@gmail.com
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Maranda
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Effertz
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 9290848214
+
+15:34:47 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:04:50 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:34:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY2OTEsImV4cCI6MTczNTQ3MDI5MX0.odGH2lqMZ0rU7OlXDT9lsXCBQlSjeuNKTrn01dvTFTo",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY2OTEsImV4cCI6MTczNTQ3MDI5MX0.odGH2lqMZ0rU7OlXDT9lsXCBQlSjeuNKTrn01dvTFTo",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:34:51 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:34:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:04:52 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY2OTMsImV4cCI6MTczNTQ3MDI5M30.ELpGWxuc56WwrPqwSBDgvD3l8I_CL4dKrT4164F0Jp8",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5466693397",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:04:53.397008896",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccounts
+
+
+15:34:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: barney.graham
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: t7gthsj631y
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: marry.dickens@gmail.com
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Ollie
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Abernathy
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 1812234553
+
+15:36:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:36:09 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:36:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:36:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:36:10 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:06:09 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:36:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:36:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY3NzAsImV4cCI6MTczNTQ3MDM3MH0._HinxiDh_EVXnf59e08ce-drtgaNU9jfikO6beaEh1Y",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY3NzEsImV4cCI6MTczNTQ3MDM3MX0.ZXz0wXooL2FFA5VC3Hkssj6vNicmqilmgvkQIk7YRyI",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:36:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:06:12 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:36:12 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY3NzMsImV4cCI6MTczNTQ3MDM3M30.pj5VzaQ3YJLxSnqvpL6rqCy4pwXsHj_IfT-PAmnd53U",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5466773355",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:06:13.355524917",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyCreateUserAccount
+
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466773355",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:06:13.355525",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccounts
+
+
+15:36:13 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: lonnie.larkin
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: ziofatnzcwt7xed
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: leroy.carroll@yahoo.com
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Launa
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Hackett
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 6585373726
+
+15:37:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:37:03 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:37:03 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:37:03 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:37:03 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:07:03 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:37:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:37:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:37:04 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY4MjQsImV4cCI6MTczNTQ3MDQyNH0.S3NlOBBfY5RUSMV7xxUTLOEBwucFBeW2rcZOcMD7a8s",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:37:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:37:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY4MjUsImV4cCI6MTczNTQ3MDQyNX0.CA-XtOtO8sE764ML_GCj-txzTnX7cscgGj8EbdgkgTU",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:37:05 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:37:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:37:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:37:06 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:37:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:37:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:07:08 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:37:08 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjY4MjksImV4cCI6MTczNTQ3MDQyOX0.6ie1FyZfftkti4uLeqOTp8uW0XzHKBza4BiS2mgAf_4",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5466829195",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:07:09.195852975",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466773355",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:06:13.355525",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466829195",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:07:09.195853",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccounts
+
+
+15:37:09 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:40:57 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: harmony.littel
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: 5te1qhb3vs9
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: yolande.reilly@hotmail.com
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Demetrius
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Marquardt
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 1138775561
+
+15:40:58 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:41:00 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:41:00 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:41:00 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:41:00 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:11:00 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjcwNjEsImV4cCI6MTczNTQ3MDY2MX0.1O3eixbmwLCfeA6jRN0cmNxXqKHPkP-k-E-ttFy2-BY",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:41:01 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjcwNjEsImV4cCI6MTczNTQ3MDY2MX0.1O3eixbmwLCfeA6jRN0cmNxXqKHPkP-k-E-ttFy2-BY",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:41:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:11:05 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjcwNjUsImV4cCI6MTczNTQ3MDY2NX0.HKXlN9zo8S0aniIaT8i-Y3GV0bFjgTjiKXVjox3jb0A",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5467065633",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:11:05.633471287",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466773355",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:06:13.355525",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466829195",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:07:09.195853",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467065633",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:11:05.633471",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:41:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccounts
+
+
+15:41:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: hisako.gislason
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: 3nvpg2zbcy
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: cameron.heller@yahoo.com
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Sammy
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Bode
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 1973903891
+
+15:46:03 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:46:05 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:46:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:46:05 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:46:05 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:16:05 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjczNjYsImV4cCI6MTczNTQ3MDk2Nn0.gir4M2bKYCk0eqBYtSsyHrBa00_kCcCEKJIRRj8_v0E",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:46:06 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjczNjYsImV4cCI6MTczNTQ3MDk2Nn0.gir4M2bKYCk0eqBYtSsyHrBa00_kCcCEKJIRRj8_v0E",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:46:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:16:09 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0NjczNzAsImV4cCI6MTczNTQ3MDk3MH0.AJ3xyduQ8xGK-0LX_0hS1MOHBUareKl_-cXPEBoDvTc",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5467370463",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:16:10.463099891",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Get user account by account number response body: {
+    "timestamp": "Sun Dec 29 10:16:10 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466773355",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:06:13.355525",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466829195",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:07:09.195853",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467065633",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:11:05.633471",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467370463",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:16:10.4631",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:46:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccounts
+
+
+15:46:11 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+
+15:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Test
+
+15:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: tisa.crist
+
+15:48:23 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: q9wkyas920q1
+
+15:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: dewey.ullrich@gmail.com
+
+15:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Idalia
+
+15:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Torp
+
+15:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 1795865155
+
+15:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifySignUpWithAlreadyExistUser
+
+15:48:25 [main] INFO  com.bank.api.utilities.LoggerUtility Sign up response body: Error: Username is already taken!
+
+15:48:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifySignUpWithAlreadyExistUser
+
+
+15:48:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithInvalidCredentials
+
+15:48:26 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "timestamp": "Sun Dec 29 10:18:26 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Bad credentials",
+    "path": "/api/auth/login"
+}
+
+15:48:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithInvalidCredentials
+
+
+15:48:26 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyLoginWithValidCredentials
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0Njc1MDcsImV4cCI6MTczNTQ3MTEwN30.CaadBlEOt96tAILmze_7Hh-r3KTym7jVyp1V8_WIl74",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyLoginWithValidCredentials
+
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyForgotPasswordWithValidEmail
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Forgot password response body: {
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyForgotPasswordWithValidEmail
+
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0Njc1MDcsImV4cCI6MTczNTQ3MTEwN30.CaadBlEOt96tAILmze_7Hh-r3KTym7jVyp1V8_WIl74",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Get user profile response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+15:48:27 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with put request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Update user profile with patch request response body: {
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+15:48:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Delete user profile with patch request response body: {
+    "timestamp": "Sun Dec 29 10:18:30 UTC 2024",
+    "status": 401,
+    "error": "Unauthorized",
+    "message": "Full authentication is required to access this resource",
+    "path": "/error"
+}
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+15:48:30 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Login response body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3MzU0Njc1MTEsImV4cCI6MTczNTQ3MTExMX0.jQ5ehq-TSfUTRWGM3FWjHdZfb46i4YVzKpTlfLi5UCg",
+    "type": "Bearer",
+    "id": 562,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Create user account response body: {
+    "accountNumber": "5467511292",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:18:31.29290036",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Get user account by account number response body: {
+    "accountNumber": "5467511292",
+    "accountType": "CURRENT",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2024-12-29T10:18:31.2929",
+    "ownerName": "Prathamesh Dhasade"
+}
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccountByAccountNumber
+
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Get user accounts response body: [
+    {
+        "accountNumber": "5464274956",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T09:24:34.956462",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466693397",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:04:53.397009",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466773355",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:06:13.355525",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5466829195",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:07:09.195853",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467065633",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:11:05.633471",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467370463",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:16:10.4631",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "5467511292",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2024-12-29T10:18:31.2929",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccounts
+
+
+15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
+

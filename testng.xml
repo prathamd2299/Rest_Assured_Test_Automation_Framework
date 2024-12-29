@@ -7,6 +7,8 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.bank.api.tests.AuthenticationTests" />
+			<class name="com.bank.api.tests.UserProfileManagementTests" />
+			<class name="com.bank.api.tests.AccountTests" />
 		</classes>
 	</test> <!--
 	Test -->

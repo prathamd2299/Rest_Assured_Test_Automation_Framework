@@ -6,17 +6,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.bank.api.tests.AuthenticationTests">
+      <class name="com.bank.api.tests.UserProfileManagementTests">
         <methods>
           <include name="createExtentReportForEachTestMethod"/>
-          <include name="verifySignUpWithValidData"/>
+          <include name="verifyDeleteUserProfile"/>
           <include name="tearDown"/>
-          <include name="verifyLoginWithValidCredentials"/>
+          <include name="setData"/>
           <include name="testMethodExecutionResult"/>
           <include name="extentReportSetup"/>
-          <include name="setData"/>
         </methods>
-      </class> <!-- com.bank.api.tests.AuthenticationTests -->
+      </class> <!-- com.bank.api.tests.UserProfileManagementTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
