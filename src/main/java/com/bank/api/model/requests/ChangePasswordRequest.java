@@ -5,54 +5,47 @@ public class ChangePasswordRequest {
 	private String newPassword;
 	private String confirmPassword;
 
-	public String getCurrentPassword() {
-		return currentPassword;
+	public ChangePasswordRequest(ChangePasswordRequestBuilder builder) {
+		super();
+		this.currentPassword = builder.currentPassword;
+		this.newPassword = builder.newPassword;
+		this.confirmPassword = builder.confirmPassword;
 	}
 
-	public void setCurrentPassword(String currentPassword) {
-		this.currentPassword = currentPassword;
+	public String getCurrentPassword() {
+		return currentPassword;
 	}
 
 	public String getNewPassword() {
 		return newPassword;
 	}
 
-	public void setNewPassword(String newPassword) {
-		this.newPassword = newPassword;
-	}
-
 	public String getConfirmPassword() {
 		return confirmPassword;
 	}
 
-	public void setConfirmPassword(String confirmPassword) {
-		this.confirmPassword = confirmPassword;
-	}
-
 	public static class ChangePasswordRequestBuilder {
-		private ChangePasswordRequest changePasswordRequest;
-
-		public ChangePasswordRequestBuilder() {
-			this.changePasswordRequest = new ChangePasswordRequest();
-		}
+		private String currentPassword;
+		private String newPassword;
+		private String confirmPassword;
 
 		public ChangePasswordRequestBuilder withCurrentPassword(String currentPassword) {
-			this.changePasswordRequest.setCurrentPassword(currentPassword);
+			this.currentPassword = currentPassword;
 			return this;
 		}
 
 		public ChangePasswordRequestBuilder withNewPassword(String newPassword) {
-			this.changePasswordRequest.setNewPassword(newPassword);
+			this.newPassword = newPassword;
 			return this;
 		}
 
 		public ChangePasswordRequestBuilder withConfirmPassword(String confirmPassword) {
-			this.changePasswordRequest.setConfirmPassword(confirmPassword);
+			this.confirmPassword = confirmPassword;
 			return this;
 		}
 
 		public ChangePasswordRequest build() {
-			return this.changePasswordRequest;
+			return new ChangePasswordRequest(this);
 		}
 	}
 }

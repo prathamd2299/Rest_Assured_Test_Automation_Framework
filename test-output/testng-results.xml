@@ -1,403 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-29T15:48:23 IST" name="Suite" finished-at="2024-12-29T15:48:31 IST" duration-ms="8436">
+  <suite started-at="2025-02-07T14:16:47 IST" name="Default suite" finished-at="2025-02-07T14:16:51 IST" duration-ms="3384">
     <groups>
     </groups>
-    <test started-at="2024-12-29T15:48:23 IST" name="Test" finished-at="2024-12-29T15:48:31 IST" duration-ms="8436">
-      <class name="com.bank.api.tests.AuthenticationTests">
-        <test-method is-config="true" signature="extentReportSetup()[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:23 IST" name="extentReportSetup" finished-at="2024-12-29T15:48:23 IST" duration-ms="295" status="PASS">
+    <test started-at="2025-02-07T14:16:47 IST" name="Default test" finished-at="2025-02-07T14:16:51 IST" duration-ms="3384">
+      <class name="com.bank.api.tests.AccountTests">
+        <test-method is-config="true" signature="extentReportSetup()[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:47 IST" name="extentReportSetup" finished-at="2025-02-07T14:16:47 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportSetup -->
-        <test-method is-config="true" signature="setData()[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:23 IST" name="setData" finished-at="2024-12-29T15:48:24 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:24 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:24 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:48 IST" name="createExtentReportForEachTestMethod" finished-at="2025-02-07T14:16:48 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifySignUpWithAlreadyExistUser()[pri:2, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=AccountTests.verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@1bb5a082] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifySignUpWithAlreadyExistUser()[pri:2, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:24 IST" name="verifySignUpWithAlreadyExistUser" finished-at="2024-12-29T15:48:25 IST" duration-ms="1879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpWithAlreadyExistUser -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:25 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:25 IST" duration-ms="17" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySignUpWithAlreadyExistUser status=SUCCESS method=AuthenticationTests.verifySignUpWithAlreadyExistUser()[pri:2, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:25 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:25 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifyLoginWithInvalidCredentials()[pri:3, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:3, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:25 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-12-29T15:48:26 IST" duration-ms="885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:26 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:26 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=AuthenticationTests.verifyLoginWithInvalidCredentials()[pri:3, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:26 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:26 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifyLoginWithValidCredentials()[pri:4, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:4, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:26 IST" name="verifyLoginWithValidCredentials" finished-at="2024-12-29T15:48:27 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:27 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginWithValidCredentials status=SUCCESS method=AuthenticationTests.verifyLoginWithValidCredentials()[pri:4, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:27 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:27 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AuthenticationTests.verifyForgotPasswordWithValidEmail()[pri:5, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyForgotPasswordWithValidEmail()[pri:5, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:27 IST" name="verifyForgotPasswordWithValidEmail" finished-at="2024-12-29T15:48:27 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPasswordWithValidEmail -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:27 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyForgotPasswordWithValidEmail status=SUCCESS method=AuthenticationTests.verifyForgotPasswordWithValidEmail()[pri:5, instance:com.bank.api.tests.AuthenticationTests@5fe94a96] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.api.tests.AuthenticationTests@5fe94a96]" started-at="2024-12-29T15:48:31 IST" name="tearDown" finished-at="2024-12-29T15:48:32 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bank.api.tests.AuthenticationTests -->
-      <class name="com.bank.api.tests.UserProfileManagementTests">
-        <test-method is-config="true" signature="setData()[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="setData" finished-at="2024-12-29T15:48:27 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:27 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyGetUserProfile()[pri:1, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyGetUserProfile()[pri:1, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="verifyGetUserProfile" finished-at="2024-12-29T15:48:27 IST" duration-ms="427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGetUserProfile -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGetUserProfile status=SUCCESS method=UserProfileManagementTests.verifyGetUserProfile()[pri:1, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyUpdateUserProfileWithPutRequest()[pri:2, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyUpdateUserProfileWithPutRequest()[pri:2, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:27 IST" name="verifyUpdateUserProfileWithPutRequest" finished-at="2024-12-29T15:48:28 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUpdateUserProfileWithPutRequest -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:28 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUpdateUserProfileWithPutRequest status=SUCCESS method=UserProfileManagementTests.verifyUpdateUserProfileWithPutRequest()[pri:2, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method signature="verifyUpdateUserProfileWithPatchRequest()[pri:3, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="verifyUpdateUserProfileWithPatchRequest" finished-at="2024-12-29T15:48:28 IST" duration-ms="154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUpdateUserProfileWithPatchRequest -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:28 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyUpdateUserProfileWithPatchRequest()[pri:3, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:28 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUpdateUserProfileWithPatchRequest status=SUCCESS method=UserProfileManagementTests.verifyUpdateUserProfileWithPatchRequest()[pri:3, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:28 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyChangePassword()[pri:4, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyChangePassword()[pri:4, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="verifyChangePassword" finished-at="2024-12-29T15:48:28 IST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyChangePassword -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:28 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyChangePassword status=SUCCESS method=UserProfileManagementTests.verifyChangePassword()[pri:4, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method signature="verifyDeleteUserProfile()[pri:5, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="verifyDeleteUserProfile" finished-at="2024-12-29T15:48:30 IST" duration-ms="2179" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [User profile deleted successfully] but found [{
-    "timestamp": "Sun Dec 29 10:18:30 UTC 2024",
-    "status": 401,
-    "error": "Unauthorized",
-    "message": "Full authentication is required to access this resource",
-    "path": "/error"
-}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [User profile deleted successfully] but found [{
-    "timestamp": "Sun Dec 29 10:18:30 UTC 2024",
-    "status": 401,
-    "error": "Unauthorized",
-    "message": "Full authentication is required to access this resource",
-    "path": "/error"
-}]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at com.bank.api.tests.UserProfileManagementTests.verifyDeleteUserProfile(UserProfileManagementTests.java:111)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDeleteUserProfile -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:28 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:28 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=UserProfileManagementTests.verifyDeleteUserProfile()[pri:5, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b]" started-at="2024-12-29T15:48:30 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:30 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyDeleteUserProfile status=FAILURE method=UserProfileManagementTests.verifyDeleteUserProfile()[pri:5, instance:com.bank.api.tests.UserProfileManagementTests@30c15d8b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-      </class> <!-- com.bank.api.tests.UserProfileManagementTests -->
-      <class name="com.bank.api.tests.AccountTests">
-        <test-method is-config="true" signature="setData()[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:30 IST" name="setData" finished-at="2024-12-29T15:48:30 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method signature="verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:30 IST" name="verifyCreateUserAccount" finished-at="2024-12-29T15:48:31 IST" duration-ms="535" status="PASS">
+        <test-method signature="verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:48 IST" name="verifyCreateUserAccount" finished-at="2025-02-07T14:16:50 IST" duration-ms="2358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateUserAccount -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:30 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:50 IST" name="testMethodExecutionResult" finished-at="2025-02-07T14:16:50 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountTests.verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyCreateUserAccount status=SUCCESS method=AccountTests.verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCreateUserAccount status=SUCCESS method=AccountTests.verifyCreateUserAccount()[pri:1, instance:com.bank.api.tests.AccountTests@1bb5a082] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:50 IST" name="createExtentReportForEachTestMethod" finished-at="2025-02-07T14:16:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountTests.verifyGetUserAccountByAccountNumber()[pri:2, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=AccountTests.verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@1bb5a082] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyGetUserAccountByAccountNumber()[pri:2, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="verifyGetUserAccountByAccountNumber" finished-at="2024-12-29T15:48:31 IST" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGetUserAccountByAccountNumber -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGetUserAccountByAccountNumber status=SUCCESS method=AccountTests.verifyGetUserAccountByAccountNumber()[pri:2, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodExecutionResult -->
-        <test-method is-config="true" signature="createExtentReportForEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="createExtentReportForEachTestMethod" finished-at="2024-12-29T15:48:31 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=AccountTests.verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createExtentReportForEachTestMethod -->
-        <test-method signature="verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="verifyGetUserAccounts" finished-at="2024-12-29T15:48:31 IST" duration-ms="204" status="PASS">
+        <test-method signature="verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:50 IST" name="verifyGetUserAccounts" finished-at="2025-02-07T14:16:51 IST" depends-on-methods="com.bank.api.tests.AccountTests.verifyCreateUserAccount" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetUserAccounts -->
-        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@5e0e82ae]" started-at="2024-12-29T15:48:31 IST" name="testMethodExecutionResult" finished-at="2024-12-29T15:48:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testMethodExecutionResult(org.testng.ITestResult)[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:51 IST" name="testMethodExecutionResult" finished-at="2025-02-07T14:16:51 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyGetUserAccounts status=SUCCESS method=AccountTests.verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@5e0e82ae] output={null}]]]>
+                <![CDATA[[TestResult name=verifyGetUserAccounts status=SUCCESS method=AccountTests.verifyGetUserAccounts()[pri:3, instance:com.bank.api.tests.AccountTests@1bb5a082] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodExecutionResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.api.tests.AccountTests@1bb5a082]" started-at="2025-02-07T14:16:51 IST" name="tearDown" finished-at="2025-02-07T14:16:51 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.bank.api.tests.AccountTests -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

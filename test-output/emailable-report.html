@@ -8,31 +8,12 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,436</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,384</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.bank.api.tests.UserProfileManagementTests</td><td><a href="#m0">verifyDeleteUserProfile</a></td><td rowspan="1">1735467508676</td><td rowspan="1">2179</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.bank.api.tests.AccountTests</td><td><a href="#m1">verifyCreateUserAccount</a></td><td rowspan="1">1735467510870</td><td rowspan="1">535</td></tr><tr class="passedeven"><td><a href="#m2">verifyGetUserAccountByAccountNumber</a></td><td rowspan="1">1735467511408</td><td rowspan="1">150</td></tr><tr class="passedeven"><td><a href="#m3">verifyGetUserAccounts</a></td><td rowspan="1">1735467511563</td><td rowspan="1">204</td></tr><tr class="passedodd"><td rowspan="4">com.bank.api.tests.AuthenticationTests</td><td><a href="#m4">verifyForgotPasswordWithValidEmail</a></td><td rowspan="1">1735467507273</td><td rowspan="1">227</td></tr><tr class="passedodd"><td><a href="#m5">verifyLoginWithInvalidCredentials</a></td><td rowspan="1">1735467505966</td><td rowspan="1">885</td></tr><tr class="passedodd"><td><a href="#m6">verifyLoginWithValidCredentials</a></td><td rowspan="1">1735467506855</td><td rowspan="1">410</td></tr><tr class="passedodd"><td><a href="#m7">verifySignUpWithAlreadyExistUser</a></td><td rowspan="1">1735467504060</td><td rowspan="1">1879</td></tr><tr class="passedeven"><td rowspan="4">com.bank.api.tests.UserProfileManagementTests</td><td><a href="#m8">verifyChangePassword</a></td><td rowspan="1">1735467508319</td><td rowspan="1">351</td></tr><tr class="passedeven"><td><a href="#m9">verifyGetUserProfile</a></td><td rowspan="1">1735467507519</td><td rowspan="1">427</td></tr><tr class="passedeven"><td><a href="#m10">verifyUpdateUserProfileWithPatchRequest</a></td><td rowspan="1">1735467508158</td><td rowspan="1">154</td></tr><tr class="passedeven"><td><a href="#m11">verifyUpdateUserProfileWithPutRequest</a></td><td rowspan="1">1735467507952</td><td rowspan="1">202</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.bank.api.tests.AccountTests</td><td><a href="#m0">verifyCreateUserAccount</a></td><td rowspan="1">1738918008235</td><td rowspan="1">2358</td></tr><tr class="passedeven"><td><a href="#m1">verifyGetUserAccounts</a></td><td rowspan="1">1738918010610</td><td rowspan="1">535</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.bank.api.tests.UserProfileManagementTests#verifyDeleteUserProfile</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [User profile deleted successfully] but found [{
-    &quot;timestamp&quot;: &quot;Sun Dec 29 10:18:30 UTC 2024&quot;,
-    &quot;status&quot;: 401,
-    &quot;error&quot;: &quot;Unauthorized&quot;,
-    &quot;message&quot;: &quot;Full authentication is required to access this resource&quot;,
-    &quot;path&quot;: &quot;/error&quot;
-}]
-	at com.bank.api.tests.UserProfileManagementTests.verifyDeleteUserProfile(UserProfileManagementTests.java:111)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.bank.api.tests.AccountTests#verifyCreateUserAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.bank.api.tests.AccountTests#verifyGetUserAccountByAccountNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.bank.api.tests.AccountTests#verifyGetUserAccounts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.bank.api.tests.AuthenticationTests#verifyForgotPasswordWithValidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.bank.api.tests.AuthenticationTests#verifyLoginWithInvalidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.bank.api.tests.AuthenticationTests#verifyLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.bank.api.tests.AuthenticationTests#verifySignUpWithAlreadyExistUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.bank.api.tests.UserProfileManagementTests#verifyChangePassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.bank.api.tests.UserProfileManagementTests#verifyGetUserProfile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.bank.api.tests.UserProfileManagementTests#verifyUpdateUserProfileWithPatchRequest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.bank.api.tests.UserProfileManagementTests#verifyUpdateUserProfileWithPutRequest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.bank.api.tests.AccountTests#verifyCreateUserAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.bank.api.tests.AccountTests#verifyGetUserAccounts</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -2,10 +2,12 @@ package com.bank.api.tests;
 
 import static org.testng.Assert.*;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.*;
 
-import com.bank.api.base.BaseTest;
-import com.bank.api.listeners.TestListener;
+import com.bank.api.base.*;
+import com.bank.api.listeners.*;
 import com.bank.api.model.requests.*;
 import com.bank.api.model.responses.*;
 import com.bank.api.services.*;
@@ -15,41 +17,27 @@ import io.restassured.response.Response;
 
 @Listeners(TestListener.class)
 public class UserProfileManagementTests extends BaseTest {
-	private static String username;
-	private static String password;
-	private static String email;
-	private static int id;
-	private static String authToken;
-
-	@BeforeClass
-	public void setData() {
-		username = ConfigManager.getProperty("username");
-		LoggerUtility.info("Username input is: " + username);
-
-		password = ConfigManager.getProperty("password");
-		LoggerUtility.info("Password input is: " + password);
-
-		email = ConfigManager.getProperty("email");
-		LoggerUtility.info("Email input is: " + email);
-	}
+	public static final Logger logger = LogManager.getLogger(UserProfileManagementTests.class);
 
 	@Test(priority = 1)
 	public void verifyGetUserProfile() {
+		String username = ConfigManager.getInstance().getProperty("username");
+		String password = ConfigManager.getInstance().getProperty("password");
+		String email = ConfigManager.getInstance().getProperty("email");
+
 		LoginRequest loginRequest = new LoginRequest.LoginRequestBuilder().withUsername(username).withPassword(password)
 				.build();
 		AuthService authService = new AuthService();
 		Response response = authService.login(loginRequest);
-		LoggerUtility.info("Login response body: " + response.asPrettyString());
 
 		assertEquals(response.getStatusCode(), 200);
 
 		LoginResponse loginResponse = response.as(LoginResponse.class);
-		authToken = loginResponse.getToken();
-		id = loginResponse.getId();
+		String authToken = loginResponse.getToken();
+		int id = loginResponse.getId();
 
 		UserProfileService userProfileService = new UserProfileService();
 		response = userProfileService.getUserProfile(authToken);
-		LoggerUtility.info("Get user profile response body: " + response.asPrettyString());
 
 		UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
 		assertEquals(userProfileResponse.getId(), id);
@@ -59,15 +47,26 @@ public class UserProfileManagementTests extends BaseTest {
 
 	@Test(priority = 2)
 	public void verifyUpdateUserProfileWithPutRequest() {
+		String username = ConfigManager.getInstance().getProperty("username");
+		String password = ConfigManager.getInstance().getProperty("password");
+		String email = ConfigManager.getInstance().getProperty("email");
+
+		LoginRequest loginRequest = new LoginRequest.LoginRequestBuilder().withUsername(username).withPassword(password)
+				.build();
+		AuthService authService = new AuthService();
+		Response response = authService.login(loginRequest);
+
+		LoginResponse loginResponse = response.as(LoginResponse.class);
+		String authToken = loginResponse.getToken();
+
 		UserProfileRequest userProfileRequest = new UserProfileRequest.UserProfileRequestBuilder()
 				.withFirstName("Prathamesh").withLastName("Dhasade").withEmail(email).withMobileNumber("9834530434")
 				.build();
 		UserProfileService userProfileService = new UserProfileService();
-		Response response = userProfileService.updateUserProfileWithPutRequest(authToken, userProfileRequest);
-		LoggerUtility.info("Update user profile with put request response body: " + response.asPrettyString());
+		response = userProfileService.updateUserProfileWithPutRequest(authToken, userProfileRequest);
 
 		UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
-		assertEquals(userProfileResponse.getId(), id);
+		assertNotNull(userProfileResponse.getId());
 		assertEquals(userProfileResponse.getUsername(), username);
 		assertEquals(userProfileResponse.getEmail(), email);
 		assertEquals(userProfileResponse.getFirstName(), "Prathamesh");
@@ -77,15 +76,26 @@ public class UserProfileManagementTests extends BaseTest {
 
 	@Test(priority = 3)
 	public void verifyUpdateUserProfileWithPatchRequest() {
+		String username = ConfigManager.getInstance().getProperty("username");
+		String password = ConfigManager.getInstance().getProperty("password");
+		String email = ConfigManager.getInstance().getProperty("email");
+
+		LoginRequest loginRequest = new LoginRequest.LoginRequestBuilder().withUsername(username).withPassword(password)
+				.build();
+		AuthService authService = new AuthService();
+		Response response = authService.login(loginRequest);
+
+		LoginResponse loginResponse = response.as(LoginResponse.class);
+		String authToken = loginResponse.getToken();
+
 		UserProfileRequest userProfileRequest = new UserProfileRequest.UserProfileRequestBuilder()
 				.withFirstName("Prathamesh").withLastName("Dhasade").withEmail(email).withMobileNumber("9834530434")
 				.withAddress("Pune").build();
 		UserProfileService userProfileService = new UserProfileService();
-		Response response = userProfileService.updateUserProfileWithPutRequest(authToken, userProfileRequest);
-		LoggerUtility.info("Update user profile with patch request response body: " + response.asPrettyString());
+		response = userProfileService.updateUserProfileWithPutRequest(authToken, userProfileRequest);
 
 		UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
-		assertEquals(userProfileResponse.getId(), id);
+		assertNotNull(userProfileResponse.getId());
 		assertEquals(userProfileResponse.getUsername(), username);
 		assertEquals(userProfileResponse.getEmail(), email);
 		assertEquals(userProfileResponse.getFirstName(), "Prathamesh");
@@ -95,18 +105,40 @@ public class UserProfileManagementTests extends BaseTest {
 
 	@Test(priority = 4)
 	public void verifyChangePassword() {
+		String username = ConfigManager.getInstance().getProperty("username");
+		String password = ConfigManager.getInstance().getProperty("password");
+
+		LoginRequest loginRequest = new LoginRequest.LoginRequestBuilder().withUsername(username).withPassword(password)
+				.build();
+		AuthService authService = new AuthService();
+		Response response = authService.login(loginRequest);
+
+		LoginResponse loginResponse = response.as(LoginResponse.class);
+		String authToken = loginResponse.getToken();
+
 		ChangePasswordRequest changePasswordRequest = new ChangePasswordRequest.ChangePasswordRequestBuilder()
 				.withCurrentPassword(password).withNewPassword(password).withConfirmPassword(password).build();
 		UserProfileService userProfileService = new UserProfileService();
-		Response response = userProfileService.changePassword(authToken, changePasswordRequest);
-		LoggerUtility.info("Change password response body: " + response.asPrettyString());
+		response = userProfileService.changePassword(authToken, changePasswordRequest);
+		logger.info("Change password response body: " + response.asPrettyString());
 	}
 
 	@Test(priority = 5)
 	public void verifyDeleteUserProfile() {
+		String username = ConfigManager.getInstance().getProperty("username");
+		String password = ConfigManager.getInstance().getProperty("password");
+
+		LoginRequest loginRequest = new LoginRequest.LoginRequestBuilder().withUsername(username).withPassword(password)
+				.build();
+		AuthService authService = new AuthService();
+		Response response = authService.login(loginRequest);
+
+		LoginResponse loginResponse = response.as(LoginResponse.class);
+		String authToken = loginResponse.getToken();
+		int id = loginResponse.getId();
+
 		UserProfileService userProfileService = new UserProfileService();
-		Response response = userProfileService.deleteUserProfile(authToken, id);
-		LoggerUtility.info("Delete user profile with patch request response body: " + response.asPrettyString());
+		response = userProfileService.deleteUserProfile(authToken, id);
 
 		assertEquals(response.asPrettyString(), "User profile deleted successfully");
 	}

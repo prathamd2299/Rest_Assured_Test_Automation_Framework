@@ -4,41 +4,36 @@ public class LoginRequest {
 	private String username;
 	private String password;
 
-	public String getUsername() {
-		return username;
+	public LoginRequest(LoginRequestBuilder builder) {
+		super();
+		this.username = builder.username;
+		this.password = builder.password;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
+	public String getUsername() {
+		return username;
 	}
 
 	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
 	public static class LoginRequestBuilder {
-		private LoginRequest loginRequest;
-
-		public LoginRequestBuilder() {
-			this.loginRequest = new LoginRequest();
-		}
+		private String username;
+		private String password;
 
 		public LoginRequestBuilder withUsername(String username) {
-			this.loginRequest.setUsername(username);
+			this.username = username;
 			return this;
 		}
 
 		public LoginRequestBuilder withPassword(String password) {
-			this.loginRequest.setPassword(password);
+			this.password = password;
 			return this;
 		}
 
 		public LoginRequest build() {
-			return this.loginRequest;
+			return new LoginRequest(this);
 		}
 	}
 }

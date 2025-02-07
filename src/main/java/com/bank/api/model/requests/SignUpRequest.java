@@ -8,93 +8,80 @@ public class SignUpRequest {
 	private String lastName;
 	private String mobileNumber;
 
-	public String getUsername() {
-		return username;
+	private SignUpRequest(SignUpRequestBuilder builder) {
+		super();
+		this.username = builder.username;
+		this.password = builder.password;
+		this.email = builder.email;
+		this.firstName = builder.firstName;
+		this.lastName = builder.lastName;
+		this.mobileNumber = builder.mobileNumber;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
+	public String getUsername() {
+		return username;
 	}
 
 	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
 	public String getEmail() {
 		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
 	public String getLastName() {
 		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
 	}
 
 	public String getMobileNumber() {
 		return mobileNumber;
 	}
 
-	public void setMobileNumber(String mobileNumber) {
-		this.mobileNumber = mobileNumber;
-	}
-
 	public static class SignUpRequestBuilder {
-		private SignUpRequest signUpRequest;
+		private String username;
+		private String password;
+		private String email;
+		private String firstName;
+		private String lastName;
+		private String mobileNumber;
 
-		public SignUpRequestBuilder() {
-			this.signUpRequest = new SignUpRequest();
-		}
-
-		public SignUpRequestBuilder withUserName(String userName) {
-			this.signUpRequest.setUsername(userName);
+		public SignUpRequestBuilder withUsername(String username) {
+			this.username = username;
 			return this;
 		}
 
 		public SignUpRequestBuilder withPassword(String password) {
-			this.signUpRequest.setPassword(password);
+			this.password = password;
 			return this;
 		}
 
 		public SignUpRequestBuilder withEmail(String email) {
-			this.signUpRequest.setEmail(email);
+			this.email = email;
 			return this;
 		}
 
 		public SignUpRequestBuilder withFirstName(String firstName) {
-			this.signUpRequest.setFirstName(firstName);
+			this.firstName = firstName;
 			return this;
 		}
 
 		public SignUpRequestBuilder withLastName(String lastName) {
-			this.signUpRequest.setLastName(lastName);
+			this.lastName = lastName;
 			return this;
 		}
 
 		public SignUpRequestBuilder withMobileNumber(String mobileNumber) {
-			this.signUpRequest.setMobileNumber(mobileNumber);
+			this.mobileNumber = mobileNumber;
 			return this;
 		}
 
 		public SignUpRequest build() {
-			return this.signUpRequest;
+			return new SignUpRequest(this);
 		}
 	}
 }

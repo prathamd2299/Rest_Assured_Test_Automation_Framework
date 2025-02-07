@@ -2732,3 +2732,1590 @@
 
 15:48:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Test
 
+13:41:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:41:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+13:41:51 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:41:51 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:41:51 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:41:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:41:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:11:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:41:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:11:52",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:41:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+13:41:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:44:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:44:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+13:44:26 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:44:26 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:44:26 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"uday1234","password":"uday1234"}
+13:44:27 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:44:27 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:14:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:44:27 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:14:27",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:44:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyDeleteUserProfile
+
+
+13:44:28 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:47:58 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:47:58 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyDeleteUserProfile
+
+13:48:00 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:00 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:48:00 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:01 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYyODEsImV4cCI6MTczODkxOTg4MX0.05tBcOt52mCwOhEgA274xOI6j0zMlCanegOjZxqJR0s",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYyODEsImV4cCI6MTczODkxOTg4MX0.05tBcOt52mCwOhEgA274xOI6j0zMlCanegOjZxqJR0s
+Accept=*/*
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Fri, 07 Feb 2025 08:18:02 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:02 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:User profile deleted successfully
+13:48:02 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyDeleteUserProfile
+
+
+13:48:03 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:48:21 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyChangePassword
+
+13:48:22 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:22 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:48:22 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:23 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMDMsImV4cCI6MTczODkxOTkwM30.56-WErN_1SPuKl7Jb_laDUyAKqtxfTPkHXIK_a70vbk",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMDMsImV4cCI6MTczODkxOTkwM30.56-WErN_1SPuKl7Jb_laDUyAKqtxfTPkHXIK_a70vbk
+Accept=*/*
+Content-Type=application/json
+13:48:23 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"currentPassword":"Pratham@123","newPassword":"Pratham@123","confirmPassword":"Pratham@123"}
+13:48:24 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:24 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Length=0
+Date=Fri, 07 Feb 2025 08:18:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:24 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:
+13:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Change password response body: 
+
+13:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyChangePassword
+
+
+13:48:24 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:48:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:48:35 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPatchRequest
+
+13:48:36 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:36 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:48:36 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:48:38 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:38 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:38 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMTcsImV4cCI6MTczODkxOTkxN30.KXsr8SIsx4282OS0jMzb4p6yugUAbtE8XR-STmthh34",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMTcsImV4cCI6MTczODkxOTkxN30.KXsr8SIsx4282OS0jMzb4p6yugUAbtE8XR-STmthh34
+Accept=*/*
+Content-Type=application/json
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"firstName":"Prathamesh","lastName":"Dhasade","email":"prathameshdhasade99@gmail.com","mobileNumber":"9834530434","address":"Pune"}
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:39 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+13:48:39 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPatchRequest
+
+
+13:48:39 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:48:48 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:48:48 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyUpdateUserProfileWithPutRequest
+
+13:48:50 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:48:50 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:48:51 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:51 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMzEsImV4cCI6MTczODkxOTkzMX0.7dE6wYQ0sDyFqtHAqpcEejom-abnLQX6JsLgZrDbcP8",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:48:52 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:48:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzMzEsImV4cCI6MTczODkxOTkzMX0.7dE6wYQ0sDyFqtHAqpcEejom-abnLQX6JsLgZrDbcP8
+Accept=*/*
+Content-Type=application/json
+13:48:52 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"firstName":"Prathamesh","lastName":"Dhasade","email":"prathameshdhasade99@gmail.com","mobileNumber":"9834530434","address":null}
+13:48:53 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:48:53 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:18:53 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:48:53 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+13:48:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyUpdateUserProfileWithPutRequest
+
+
+13:48:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:48:59 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:48:59 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserProfile
+
+13:49:01 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:49:01 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:49:01 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:49:03 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:49:03 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:19:03 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzNDMsImV4cCI6MTczODkxOTk0M30.CFNpOKn4W2ctFNELs2lhQwEsULp56m0TQlOv9Ejwjuo",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTYzNDMsImV4cCI6MTczODkxOTk0M30.CFNpOKn4W2ctFNELs2lhQwEsULp56m0TQlOv9Ejwjuo
+Accept=*/*
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:19:04 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:49:04 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "firstName": "Prathamesh",
+    "lastName": "Dhasade",
+    "mobileNumber": "9834530434"
+}
+13:49:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserProfile
+
+
+13:49:04 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testSignUp_alreadyExistUser
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Username input is: Pratham99
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Password input is: Pratham@123
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Email input is: prathameshdhasade99@gmail.com
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility First name input is: Lorenzo
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Last name input is: Romaguera
+
+13:49:23 [main] INFO  com.bank.api.utilities.LoggerUtility Mobile number input is: 3341844934
+
+13:49:24 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:49:24 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:49:24 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123","email":"prathameshdhasade99@gmail.com","firstName":"Lorenzo","lastName":"Romaguera","mobileNumber":"3341844934"}
+13:49:25 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:400
+13:49:25 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Fri, 07 Feb 2025 08:19:25 GMT
+Connection=close
+13:49:25 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:Error: Username is already taken!
+13:49:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: testSignUp_alreadyExistUser
+
+
+13:49:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:49:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:49:44 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_invalidCredentials
+
+13:49:45 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:49:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:49:45 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"john","password":"John@123"}
+13:49:46 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:49:46 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:19:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:49:46 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:19:46",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:49:47 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: testLogin_invalidCredentials
+
+
+13:49:47 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:52:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:52:23 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_invalidCredentials
+
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"john","password":"John@123"}
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:22:24 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:52:24 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:22:24",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:52:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: testLogin_invalidCredentials
+
+
+13:52:25 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:53:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:53:43 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_invalidCredentials
+
+13:53:44 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:53:44 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:53:44 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"john","password":"John@123"}
+13:53:44 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:53:44 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:23:44 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:53:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:23:44",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:53:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: testLogin_invalidCredentials
+
+
+13:53:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:55:33 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:55:33 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_invalidCredentials
+
+13:55:34 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI:http://64.227.160.186:8080
+13:55:34 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:55:34 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"john","password":"John@123"}
+13:55:35 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:55:35 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:25:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:55:35 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:25:34",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:55:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: testLogin_invalidCredentials
+
+
+13:55:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:56:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:56:29 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_invalidCredentials
+
+13:56:29 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+13:56:29 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:56:29 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"john","password":"John@123"}
+13:56:30 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:401
+13:56:30 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:26:30 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:56:30 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:26:30",
+    "status": 401,
+    "error": "Invalid Credentials",
+    "message": "The username or password you entered is incorrect",
+    "path": "uri=/api/auth/login",
+    "solution": "Please check your credentials and try again",
+    "errorCode": "AUTH_002"
+}
+13:56:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: testLogin_invalidCredentials
+
+
+13:56:31 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:56:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:56:53 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_validCredentials
+
+13:56:53 [main] INFO  com.bank.api.testData.AuthData Username input is: Pratham99
+13:56:53 [main] INFO  com.bank.api.testData.AuthData Password input is: Pratham@123
+13:56:54 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+13:56:54 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:56:54 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:56:55 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:56:55 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:26:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:56:55 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTY4MTQsImV4cCI6MTczODkyMDQxNH0.MU9eGwhUWY7rJSnix9bAbcDn6HbFqg3O_Zuep7Te55U",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:56:55 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: testLogin_validCredentials
+
+
+13:56:55 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:59:14 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:59:14 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testLogin_validCredentials
+
+13:59:14 [main] INFO  com.bank.api.testData.AuthData Username input is: Pratham99
+13:59:14 [main] INFO  com.bank.api.testData.AuthData Password input is: Pratham@123
+13:59:15 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+13:59:15 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:59:15 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:59:16 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:59:16 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:29:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:59:16 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTY5NTUsImV4cCI6MTczODkyMDU1NX0._vI2jKnIkYaf6pTkWgypDNZNEtSyRDoTC2SRX0UMiW0",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:59:16 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: testLogin_validCredentials
+
+
+13:59:16 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+13:59:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+13:59:32 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: testForgotPassword_validEmail
+
+13:59:32 [main] INFO  com.bank.api.testData.AuthData Username input is: Pratham99
+13:59:32 [main] INFO  com.bank.api.testData.AuthData Password input is: Pratham@123
+13:59:33 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+13:59:33 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+13:59:33 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:29:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTY5NzUsImV4cCI6MTczODkyMDU3NX0.WQ7XD7c4xytShE3_YzPX4FBnlXJ1bqGZXKUt1V-7-pc",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/forgot-password
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTY5NzUsImV4cCI6MTczODkyMDU3NX0.WQ7XD7c4xytShE3_YzPX4FBnlXJ1bqGZXKUt1V-7-pc
+Content-Type=application/json
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"email":"testautomationacademy33@gmail.com"}
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:29:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:59:35 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "message": "If your email exists in our system, you will receive reset instructions."
+}
+13:59:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: testForgotPassword_validEmail
+
+
+13:59:36 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+14:01:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+14:01:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+14:01:51 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:01:51 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:01:51 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:31:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTcxMTIsImV4cCI6MTczODkyMDcxMn0.TJsBh5nYMnqrtF5TVt_yGvRHdInpiq-2Bk4ul2UuhWc",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts/null
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTcxMTIsImV4cCI6MTczODkyMDcxMn0.TJsBh5nYMnqrtF5TVt_yGvRHdInpiq-2Bk4ul2UuhWc
+Accept=*/*
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:500
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:31:52 GMT
+Connection=close
+14:01:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "timestamp": "2025-02-07 08:31:52",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/accounts/null",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+14:01:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+14:01:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+14:14:42 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+14:14:42 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+14:14:44 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:14:44 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:14:44 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:44:45 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc4ODUsImV4cCI6MTczODkyMTQ4NX0.3BvB0JsN1mvZjJTEQpNs0lnbKVTB2A_YEQjaarVser0",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc4ODUsImV4cCI6MTczODkyMTQ4NX0.3BvB0JsN1mvZjJTEQpNs0lnbKVTB2A_YEQjaarVser0
+Accept=*/*
+Content-Type=application/json
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"accountType":"SAVINGS","branch":"Pune"}
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:44:45 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8917885655",
+    "accountType": "SAVINGS",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:44:45.655229407",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:14:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+14:14:45 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:14:45 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:44:45 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc4ODUsImV4cCI6MTczODkyMTQ4NX0.3BvB0JsN1mvZjJTEQpNs0lnbKVTB2A_YEQjaarVser0",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts/8917885655
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc4ODUsImV4cCI6MTczODkyMTQ4NX0.3BvB0JsN1mvZjJTEQpNs0lnbKVTB2A_YEQjaarVser0
+Accept=*/*
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:44:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:14:46 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8917885655",
+    "accountType": "SAVINGS",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:44:45.655229",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:14:46 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccountByAccountNumber
+
+
+14:14:46 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+14:15:49 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+14:15:49 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+14:15:50 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:15:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:15:50 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:45:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NTEsImV4cCI6MTczODkyMTU1MX0.TmXKBfHVJOZlvXK14_HJnRPemZJDO2kroEgz4FFc0V0",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NTEsImV4cCI6MTczODkyMTU1MX0.TmXKBfHVJOZlvXK14_HJnRPemZJDO2kroEgz4FFc0V0
+Accept=*/*
+Content-Type=application/json
+14:15:51 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"accountType":"CURRENT","branch":"Pune"}
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:45:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8917952055",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:45:52.055415702",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:15:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+14:15:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccountByAccountNumber
+
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:45:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NTIsImV4cCI6MTczODkyMTU1Mn0.qy_AkbRNLpFP_M9wWots78m83snpxYOVj7dFnnHgz10",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts/8917952055
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NTIsImV4cCI6MTczODkyMTU1Mn0.qy_AkbRNLpFP_M9wWots78m83snpxYOVj7dFnnHgz10
+Accept=*/*
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:45:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:15:52 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8917952055",
+    "accountType": "CURRENT",
+    "balance": 0.00,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:45:52.055416",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:15:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccountByAccountNumber
+
+
+14:15:52 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+14:16:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+14:16:07 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NjksImV4cCI6MTczODkyMTU2OX0.bBJQw3JOEvbqIcj4yEWvE_S1gGYCDImQTG8_pipd0gU",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NjksImV4cCI6MTczODkyMTU2OX0.bBJQw3JOEvbqIcj4yEWvE_S1gGYCDImQTG8_pipd0gU
+Accept=*/*
+Content-Type=application/json
+14:16:09 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"accountType":"CURRENT","branch":"Pune"}
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:10 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8917970091",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:46:10.091826167",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:16:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+14:16:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:10 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NzAsImV4cCI6MTczODkyMTU3MH0.nXlo3CNvCrHKG8B7CryMlJQ9qvaPq4QzEJDciRitmKk",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts/user
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTc5NzAsImV4cCI6MTczODkyMTU3MH0.nXlo3CNvCrHKG8B7CryMlJQ9qvaPq4QzEJDciRitmKk
+Accept=*/*
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:10 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:10 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:[
+    {
+        "accountNumber": "8917885655",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:44:45.655229",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "8917952055",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:45:52.055416",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "8917970091",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:46:10.091826",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+14:16:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test failed: verifyGetUserAccounts
+
+
+14:16:10 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+
+14:16:48 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Started: Default test
+
+14:16:48 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyCreateUserAccount
+
+14:16:49 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:16:49 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:16:49 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTgwMTAsImV4cCI6MTczODkyMTYxMH0.tUalikmWzLWJCEp9VWPMv9sNAEzhvMuGRERCFaQcl8I",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTgwMTAsImV4cCI6MTczODkyMTYxMH0.tUalikmWzLWJCEp9VWPMv9sNAEzhvMuGRERCFaQcl8I
+Accept=*/*
+Content-Type=application/json
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"accountType":"CURRENT","branch":"Pune"}
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "accountNumber": "8918010487",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "Pune",
+    "createdAt": "2025-02-07T08:46:50.48783025",
+    "ownerName": "Prathamesh Dhasade"
+}
+14:16:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyCreateUserAccount
+
+
+14:16:50 [main] INFO  com.bank.api.utilities.LoggerUtility Test Started: verifyGetUserAccounts
+
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/auth/login
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Accept=*/*
+Content-Type=application/json
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:{"username":"Pratham99","password":"Pratham@123"}
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTgwMTAsImV4cCI6MTczODkyMTYxMH0.tUalikmWzLWJCEp9VWPMv9sNAEzhvMuGRERCFaQcl8I",
+    "type": "Bearer",
+    "id": 3,
+    "username": "Pratham99",
+    "email": "prathameshdhasade99@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter BASE URI with endpoint:http://64.227.160.186:8080/api/accounts/user
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJQcmF0aGFtOTkiLCJpYXQiOjE3Mzg5MTgwMTAsImV4cCI6MTczODkyMTYxMH0.tUalikmWzLWJCEp9VWPMv9sNAEzhvMuGRERCFaQcl8I
+Accept=*/*
+14:16:50 [main] INFO  com.bank.api.filters.LoggingFilter Request PayLoad:null
+14:16:51 [main] INFO  com.bank.api.filters.LoggingFilter STATUS CODE:200
+14:16:51 [main] INFO  com.bank.api.filters.LoggingFilter Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 07 Feb 2025 08:46:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+14:16:51 [main] INFO  com.bank.api.filters.LoggingFilter Request Body:[
+    {
+        "accountNumber": "8917885655",
+        "accountType": "SAVINGS",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:44:45.655229",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "8917952055",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:45:52.055416",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "8917970091",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:46:10.091826",
+        "ownerName": "Prathamesh Dhasade"
+    },
+    {
+        "accountNumber": "8918010487",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Pune",
+        "createdAt": "2025-02-07T08:46:50.48783",
+        "ownerName": "Prathamesh Dhasade"
+    }
+]
+14:16:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test passed: verifyGetUserAccounts
+
+
+14:16:51 [main] INFO  com.bank.api.utilities.LoggerUtility Test Suite Finished: Default test
+

@@ -5,54 +5,47 @@ public class ResetPasswordRequest {
 	private String newPassword;
 	private String confirmPassword;
 
-	public String getToken() {
-		return token;
+	public ResetPasswordRequest(ResetPasswordRequestBuilder builder) {
+		super();
+		this.token = builder.token;
+		this.newPassword = builder.newPassword;
+		this.confirmPassword = builder.confirmPassword;
 	}
 
-	public void setToken(String token) {
-		this.token = token;
+	public String getToken() {
+		return token;
 	}
 
 	public String getNewPassword() {
 		return newPassword;
 	}
 
-	public void setNewPassword(String newPassword) {
-		this.newPassword = newPassword;
-	}
-
 	public String getConfirmPassword() {
 		return confirmPassword;
 	}
 
-	public void setConfirmPassword(String confirmPassword) {
-		this.confirmPassword = confirmPassword;
-	}
-
 	public static class ResetPasswordRequestBuilder {
-		private ResetPasswordRequest resetPasswordRequest;
-
-		public ResetPasswordRequestBuilder() {
-			this.resetPasswordRequest = new ResetPasswordRequest();
-		}
+		private String token;
+		private String newPassword;
+		private String confirmPassword;
 
 		public ResetPasswordRequestBuilder withToken(String token) {
-			this.resetPasswordRequest.setToken(token);
+			this.token = token;
 			return this;
 		}
 
 		public ResetPasswordRequestBuilder withNewPassword(String newPassword) {
-			this.resetPasswordRequest.setNewPassword(newPassword);
+			this.newPassword = newPassword;
 			return this;
 		}
 
 		public ResetPasswordRequestBuilder withConfirmPassword(String confirmPassword) {
-			this.resetPasswordRequest.setConfirmPassword(confirmPassword);
+			this.confirmPassword = confirmPassword;
 			return this;
 		}
 
 		public ResetPasswordRequest build() {
-			return this.resetPasswordRequest;
+			return new ResetPasswordRequest(this);
 		}
 	}
 }

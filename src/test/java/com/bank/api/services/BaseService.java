@@ -2,8 +2,10 @@ package com.bank.api.services;
 
 import static io.restassured.RestAssured.*;
 
+import com.bank.api.filters.LoggingFilter;
 import com.bank.api.utilities.ConfigManager;
 
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -12,7 +14,11 @@ public class BaseService {
 	private RequestSpecification requestSpecification;
 
 	public BaseService() {
-		requestSpecification = given().baseUri(ConfigManager.getProperty("baseUri"));
+		requestSpecification = given().baseUri(ConfigManager.getInstance().getProperty("baseUri"));
+	}
+	
+	static {
+		RestAssured.filters(new LoggingFilter());
 	}
 
 	public void attachToken(String token) {

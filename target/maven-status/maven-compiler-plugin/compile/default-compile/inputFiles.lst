@@ -1,0 +1,11 @@
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\constants\Constants.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\endpoints\APIEndpoints.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\AccountRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\ChangePasswordRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\LoginRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\ResetPasswordRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\SignUpRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\requests\UserProfileRequest.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\responses\AccountResponse.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\responses\LoginResponse.java
+C:\Users\Lenovo\eclipse-workspace\Bank_API_Rest_Assured_Framework\src\main\java\com\bank\api\model\responses\UserProfileResponse.java
